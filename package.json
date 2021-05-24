@@ -1,0 +1,19 @@
+{
+  "name": "cypresse2eframework",
+  "version": "1.0.0",
+  "description": "Cypress Automation Framework to Test Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "recordMochawesomeResults": "node_modules\\.bin\\cypress run --reporter mochawesome",
+    "recordDashBoardTest": "node_modules\\.bin\\cypress run --record --key 65d2720b-b419-4e28-bca0-c254e6337ca2 --reporter mochawesome"
+  },
+  "author": "kunalshahare@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.3.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "rimraf": "^3.0.2"
+  }
+}

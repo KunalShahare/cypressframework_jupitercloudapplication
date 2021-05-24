@@ -1,0 +1,15 @@
+{
+
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 30000,
+  "integrationFolder": "cypress/integration/examples",
+  "reporter": "mochawesome",
+  "env" :
+  {
+    "url": "https://jupiter.cloud.planittesting.com/#/"
+  },  
+
+    "projectId": "qeeva5"
+
+
+}
